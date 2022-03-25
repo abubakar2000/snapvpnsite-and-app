@@ -1,0 +1,80 @@
+.btn_edit, .btn_delete, .btn_cust{
+    padding: 5px 10px !important;
+    font-size: 12px !important; 
+  }
+  .sa-button-container .btn{
+    font-size: 16px;padding: 8px 20px;
+  }
+
+  .control-label-help{
+    color: red !important;
+  }
+
+  .dropdown-li{
+    margin-bottom: 0px !important;
+  }
+  .cust-dropdown-container{
+    background: #E7EDEE;
+    display: none;
+  }
+  .cust-dropdown{
+    list-style: none;
+    background: #eee;
+  }
+  .cust-dropdown li a{
+    padding: 8px 5px;
+    width: 100%;
+    display: block;
+    color: #444;
+    float: left;
+    text-decoration: none;
+    transition: all linear 0.2s;
+    font-weight: 500;
+  }
+  .cust-dropdown li a:hover{
+    color: #1782de;
+  }
+
+  .cust-dropdown li a.active{
+    color: #1782de;
+  }
+
+  aside.app-sidebar .sidebar-menu ul.sidebar-nav > li.active {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+aside.app-sidebar .sidebar-menu ul.sidebar-nav > li > a:hover{
+    color: #fff;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.block_wallpaper:hover {
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 5px #2196f38c;
+    border: 2px solid #2196F3;
+    color: #2196F3;
+}
+.form-control:hover {
+    box-shadow: 0 1px 5px #2196f38c;
+    border: 1px solid #2196F3;
+}
+.select2-selection:hover {
+    box-shadow: 0 1px 3px #2196f38c;
+    border: 1px solid #2196F3;
+}
+.fileupload_block:hover {
+    box-shadow: 0 1px 3px #2196f38c;
+    border: 1px solid #2196F3;
+}
+.alert-success {
+    color: #fff;
+    border-color: #007ce6;
+    background-color: #1782de5c;
+}
